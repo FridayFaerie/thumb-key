@@ -10,8 +10,8 @@
       config.allowUnfree = true;
     },
 
+/*
   # If you want to use the in-tree version of nixpkgs:
-  /*
   pkgs ? import ../../../../.. {
     config.allowUnfree = true;
   },
@@ -35,8 +35,8 @@ let
       licenseAccepted = true;
     };
 
+/*
   # Otherwise, just use the in-tree androidenv:
-  /*
   androidEnv = pkgs.callPackage ./.. {
     inherit pkgs licenseAccepted;
   };
@@ -49,10 +49,12 @@ let
     "23.1.7779620"
     "25.1.8937393"
     "26.1.10909125"
+    "27.0.12077973"
     "latest"
   ];
 
   androidComposition = androidEnv.composeAndroidPackages {
+    buildToolsVersions = ["35.0.0"];
     includeSources = true;
     includeSystemImages = false;
     includeEmulator = "if-supported";
