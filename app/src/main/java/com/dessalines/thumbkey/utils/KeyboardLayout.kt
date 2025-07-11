@@ -3,6 +3,7 @@ package com.dessalines.thumbkey.utils
 import com.dessalines.thumbkey.keyboards.KB_AR_THUMBKEY_LEVANT
 import com.dessalines.thumbkey.keyboards.KB_BG_MESSAGEASE_PHONETIC_SYMBOLS
 import com.dessalines.thumbkey.keyboards.KB_BG_THUMBKEY_SYMBOLS
+import com.dessalines.thumbkey.keyboards.KB_BAN_THUMBKEY
 import com.dessalines.thumbkey.keyboards.KB_BR_FR_THUMBKEY
 import com.dessalines.thumbkey.keyboards.KB_BR_FR_THUMBKEY_COMPOSE
 import com.dessalines.thumbkey.keyboards.KB_BR_FR_THUMBKEY_V3
@@ -380,4 +381,5 @@ enum class KeyboardLayout(
     SRLatnThumbKey(KB_SRLATN_THUMBKEY),
     SRLatnEnDeThumbKey(KB_SRLATN_EN_DE_THUMBKEY),
     FRENFrappeFluideV1(KB_FR_EN_FRAPPE_FLUIDE_V1),
+    BANThumbKey(KB_BAN_THUMBKEY),
 }
