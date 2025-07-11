@@ -46,10 +46,10 @@ let
   includeAuto = pkgs.stdenv.hostPlatform.isx86_64 || pkgs.stdenv.hostPlatform.isDarwin;
 
   ndkVersions = [
+    "27.0.12077973"
     "23.1.7779620"
     "25.1.8937393"
     "26.1.10909125"
-    "27.0.12077973"
     "latest"
   ];
 

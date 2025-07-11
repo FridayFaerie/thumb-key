@@ -14,7 +14,7 @@ import com.dessalines.thumbkey.utils.ColorVariant.*
 import com.dessalines.thumbkey.utils.KeyAction.*
 
 
-val banfont = FontFamily(Font(R.font.nasin_nanpa_4_0_2, weight = FontWeight.Normal, style = FontStyle.Normal))
+val banfont = FontFamily(Font(R.font.banfont, weight = FontWeight.Normal, style = FontStyle.Normal))
 
 val banmap =
     mapOf(
@@ -166,9 +166,9 @@ val KB_BAN_THUMBKEY_MAIN =
         listOf(
             listOf(
                 KeyItemC(
-                    center = KeyC("https://banner-writer.web.app/image/L", displayText = banmap["ala"]!!, displayFont = banfont),
-                    topLeft = KeyC(".png", displayText = banmap["esun"]!!, displayFont = banfont),
-                    top = KeyC("kulupu ", displayText = banmap["kulupu"]!!, displayFont = banfont),
+                    center = KeyC("https://banner-writer.web.app/image/R", displayText = "R"!!, displayFont = banfont),
+                    topLeft = KeyC(".png", displayText = "E"!!, displayFont = banfont),
+                    top = KeyC("kute ", displayText = banmap["kute"]!!, displayFont = banfont),
                     topRight = KeyC("kute ", displayText = banmap["kute"]!!, displayFont = banfont),
                     right = KeyC("sijelo ", displayText = banmap["sijelo"]!!, displayFont = banfont),
                     bottomRight = KeyC("moli ", displayText = banmap["moli"]!!, displayFont = banfont),
@@ -188,7 +188,7 @@ val KB_BAN_THUMBKEY_MAIN =
                     left = KeyC("en ", displayText = banmap["en"]!!, displayFont = banfont),
                 ),
                 KeyItemC(
-                    center = KeyC("tawa ", displayText = banmap["tawa"]!!, displayFont = banfont),
+                    center = KeyC("0.", displayText = ""!!, displayFont = banfont),
                     topLeft = KeyC("soweli ", displayText = banmap["soweli"]!!, displayFont = banfont),
                     top = KeyC("pakala ", displayText = banmap["pakala"]!!, displayFont = banfont),
                     topRight = KeyC("awen ", displayText = banmap["awen"]!!, displayFont = banfont),
@@ -213,23 +213,23 @@ val KB_BAN_THUMBKEY_MAIN =
                     left = KeyC("sewi ", displayText = banmap["sewi"]!!, displayFont = banfont),
                 ),
                 KeyItemC(
-                    center = KeyC("ni ", displayText = banmap["ni"]!!, displayFont = banfont),
+                    center = KeyC("G", displayText = ""!!, displayFont = banfont),
                     topLeft = KeyC("taso ", displayText = banmap["taso"]!!, displayFont = banfont),
-                    top = KeyC("meli ", displayText = banmap["meli"]!!, displayFont = banfont),
+                    top = KeyC("p", displayText = ""!!, displayFont = banfont),
                     topRight = KeyC("lawa ", displayText = banmap["lawa"]!!, displayFont = banfont),
-                    right = KeyC("suli ", displayText = banmap["suli"]!!, displayFont = banfont),
+                    right = KeyC("o", displayText = ""!!, displayFont = banfont),
                     bottomRight = KeyC("anu ", displayText = banmap["anu"]!!, displayFont = banfont),
-                    bottom = KeyC("ilo ", displayText = banmap["ilo"]!!, displayFont = banfont),
+                    bottom = KeyC("i", displayText = ""!!, displayFont = banfont),
                     bottomLeft = KeyC("suno ", displayText = banmap["suno"]!!, displayFont = banfont),
-                    left = KeyC("moku ", displayText = banmap["moku"]!!, displayFont = banfont),
+                    left = KeyC("m", displayText = ""!!, displayFont = banfont),
                 ),
                 KeyItemC(
-                    center = KeyC("jan ", displayText = banmap["jan"]!!, displayFont = banfont),
+                    center = KeyC("0", displayText = ""!!, displayFont = banfont),
                     topLeft = KeyC("ijo ", displayText = banmap["ijo"]!!, displayFont = banfont),
                     top = KeyC("sama ", displayText = banmap["sama"]!!, displayFont = banfont),
-                    topRight = KeyC("telo ", displayText = banmap["telo"]!!, displayFont = banfont),
+                    topRight = KeyC("6", displayText = ""!!, displayFont = banfont),
                     right = KeyC("pana ", displayText = banmap["pana"]!!, displayFont = banfont),
-                    bottomRight = KeyC("kepeken ", displayText = banmap["kepeken"]!!, displayFont = banfont),
+                    bottomRight = KeyC("C", displayText = ""!!, displayFont = banfont),
                     bottom = KeyC("ike ", displayText = banmap["ike"]!!, displayFont = banfont),
                     bottomLeft = KeyC("ale ", displayText = banmap["ale"]!!, displayFont = banfont),
                     left = KeyC("ma ", displayText = banmap["ma"]!!, displayFont = banfont),
@@ -251,9 +251,9 @@ val KB_BAN_THUMBKEY_MAIN =
                 KeyItemC(
                     center = KeyC("e ", displayText = banmap["e"]!!, displayFont = banfont),
                     topLeft = KeyC("sona ", displayText = banmap["sona"]!!, displayFont = banfont),
-                    top = KeyC("ken ", displayText = banmap["ken"]!!, displayFont = banfont),
+                    top = KeyC("j", displayText = ""!!, displayFont = banfont),
                     topRight = KeyC("o ", displayText = banmap["o"]!!, displayFont = banfont),
-                    right = KeyC("wile ", displayText = banmap["wile"]!!, displayFont = banfont),
+                    right = KeyC("n", displayText = ""!!, displayFont = banfont),
                     bottomRight =
                         KeyC(
                             action = ReplaceTrailingWhitespace(", ", 2),
@@ -412,7 +412,7 @@ val KB_BAN_THUMBKEY_SHIFTED =
 
 val KB_BAN_THUMBKEY: KeyboardDefinition =
     KeyboardDefinition(
-        title = "bani pona thumb-key",
+        title = "banner thumb-key",
         modes =
             KeyboardDefinitionModes(
                 main = KB_BAN_THUMBKEY_MAIN,
